@@ -19,13 +19,13 @@ def request_query():
 
 
 title = '¿Que le respondo al profe?'
-context = 'El objetivo de esta simulación es encontrar la respuesta perfecta para darle a l profe en una situación… Complicada.'
+context = 'El objetivo de esta simulación es encontrar la respuesta perfecta para darle al profe en una situación complicada.'
 
 examples={
 'Profesor: que pensás hacer respecto a tus trabajos prácticos?':'Yo: Trataré de hacer todos los trabajos prácticos antes de que terminen las clases.',
 'Profesor: Alguna duda te quedó respecto de la clase?':'Yo: Creo que me gustaría que volviera a explicar el tema pero con menos detalles para tener una idea más clara.',
 'Profesor: Todo listo para el examen final?':'Yo:  Si profe, he estado estudiando todos los temas, alguna recomendación sobre qué estudiar en específico?',
-'Profesor: Has estado tieniendo algún problema al llevar la clase?':'Yo:  En general todo bien, pero he tenido algunos problemas con un par de temas.'
+'Profesor: Has estado teniendo algún problema al llevar la clase?':'Yo:  En general todo bien, pero he tenido algunos problemas con un par de temas.'
 }
 
 gpt = GPT(engine="davinci",
